@@ -4,6 +4,9 @@ body{
   background: #000;
   text-align: center;
 }
+img {
+    max-width: 100%;
+}
 .second-color{
   color: #007dc5
 }
@@ -100,6 +103,7 @@ header .container {
     width: 535px;
     margin: auto;
     margin-top: 150px;
+    max-width: 100%;
 }
 
 .logo img {
@@ -149,7 +153,7 @@ header .container {
     margin-top: -21px;
 }
 .phone{
-  background: url('../img/phone.png');
+  background: url('../img/phone-app.png');
   background-size: 100%;
   min-height: 700px
 }
@@ -210,4 +214,79 @@ header .container {
 .service .icon img:hover {
     -webkit-transform: rotate(360deg) scale(1.2);
     transform: rotate(360deg) scale(1.2);
+}
+@media only screen and (max-width: 1023px) {
+
+.navbar-default .navbar-brand {
+    width: 200px;
+    padding-top: 7px;
+}
+
+.navbar-default {
+    height: 60px;
+    padding: 0;
+}
+
+.ben-items .item{
+  width:50%;
+  float:left;
+  text-align: center;
+}
+.ben-items {
+  height: 180px;
+}
+.ben-items {}
+
+.container-fluid>.navbar-collapse {
+    height: 224px;
+    background: #000000d1;
+    padding: 0;
+}
+
+.navbar-nav>li {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    width: 100%;
+    border-bottom: 1px solid #676366;
+    transition: all .5s ease;
+}
+
+.navbar-nav>li:hover {
+    background: #047cc5;
+}
+
+.navbar-nav {
+    width: 100%;
+    margin: 0;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle {
+    background: #050608;
+    border: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: white;
+    margin-top: 5px;
+}
+.logo {
+    width: 180px;
+    margin-top: 110px;
+}
+
+.slogan {
+    font-size: 20px;
+    line-height: 28px;
+    width: 100%;
+}
+
+.passion {
+    width: 100%;
+    font-size: 15px;
+}
+
+.container-fluid.banner-bg.bg {
+    height: 760px;
+}
 }
