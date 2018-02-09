@@ -32,6 +32,8 @@ body{
   background-size: cover;
   padding: 0;
 }
+
+.container.services.bg {}
 .container-fluid.main-content {
     padding: 0;
 }
@@ -147,7 +149,7 @@ header .container {
     margin-top: -21px;
 }
 .phone{
-  background: url('../img/phone-app.png');
+  background: url('../img/phone.png');
   background-size: 100%;
   min-height: 700px
 }
@@ -193,4 +195,19 @@ header .container {
 }
 .benefits {
     background: rgba(0,0,0,0.8);
+}
+.service .icon img {
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    width: 100%;
+}
+
+.service .icon {
+    width: 110px;
+    margin: auto;
+}
+
+.service .icon img:hover {
+    -webkit-transform: rotate(360deg) scale(1.2);
+    transform: rotate(360deg) scale(1.2);
 }
