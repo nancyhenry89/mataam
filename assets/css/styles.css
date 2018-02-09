@@ -1,12 +1,28 @@
 body{
   color:#fff;
   font-family: 'Oswald', sans-serif;
+  background: #000;
+  text-align: center;
 }
 .second-color{
   color: #007dc5
 }
+
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+}
 .second-bc{
   background-color: #007dc5;
+}
+
+.btn {
+    transition: all .5s ease;
+}
+
+.btn:hover {
+    background: #078ada;
+    color: #fff;
 }
 .banner-bg{
   background-image: url("../img/mainBG.png");
@@ -65,6 +81,11 @@ header .container {
 
 .navbar-default .navbar-nav>li>a {
     color: #fff;
+    transition: all .5s ease;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #047cc5;
 }
 
 .navbar-nav {
@@ -124,4 +145,52 @@ header .container {
 .more .arrow {
     font-size: 75px;
     margin-top: -21px;
+}
+.phone{
+  background: url('../img/phone.png');
+  background-size: 100%;
+  min-height: 700px
+}
+.for-clients.ben-items {
+    text-align: right;
+}
+
+.for-rest.ben-items {
+    text-align: left;
+}
+
+.form * {
+    width: 100%;
+}
+
+.form input,.form textarea {
+    border: 1px solid #686466;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.service .desc {
+    font-family: 'Raleway', sans-serif;
+}
+
+.ben-items .desc {
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact {}
+
+.contact-details {
+    font-family: 'Raleway', sans-serif;
+}
+
+.form {
+    font-family: 'Raleway', sans-serif;
+    width: 50%;
+    margin: auto;
+}
+
+.ben-cont-bg {
+    background-image: url(../img/mainBG.png);
+}
+.benefits {
+    background: rgba(0,0,0,0.8);
 }
