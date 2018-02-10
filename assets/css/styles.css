@@ -13,7 +13,14 @@ img {
 .section-title {
     text-align: center;
     text-transform: uppercase;
+    font-size: 38px;
+    letter-spacing: 3px;
+    margin-top: 100px;
 }
+.services .section-title{
+  margin-bottom: 50px;
+}
+.soon .section-title{margin-bottom: 40px;}
 .second-bc{
   background-color: #007dc5;
 }
@@ -28,13 +35,10 @@ img {
     color: #fff;
 }
 .banner-bg{
-  background-image: url("../img/mainBG.png");
-  height: 1035px;
+  background-image: url("../img/main-bg.png");
+  height: 826px;
 }
-.bg{
-  background-size: cover;
-  padding: 0;
-}
+
 
 .container.services.bg {}
 .container-fluid.main-content {
@@ -54,10 +58,10 @@ header .container {
 
 .navbar-default {
     background: rgba(0,0,0,0.8);
-    height: 56px;
+    height: 93px;
     border: 0;
     border-radius: 0;
-    padding: 0 35px;
+    padding-left: 50px;
 }
 
 .navbar-brand>img {
@@ -65,9 +69,9 @@ header .container {
 }
 
 .navbar-brand {
-    width: 330px;
+    width: 250px;
     height: 100%;
-    padding-top: 40px;
+    padding-top: 18px;
 }
 
 .container.banner {
@@ -77,11 +81,11 @@ header .container {
     height: 100%;
 }
 .navbar-nav>li {
-    font-size: 30px;
-    /* margin-top: 61px; */
+    font-size: 22px;
+    margin-top: 26px;
     text-transform: uppercase;
     text-align: center;
-    padding: 0 32px;
+    padding: 0 34px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -97,10 +101,11 @@ header .container {
     height: 100%;
     width: 77%;
     padding-left: 20px;
+    float: right;
 }
 
 .logo {
-    width: 535px;
+    width: 325px;
     margin: auto;
     margin-top: 150px;
     max-width: 100%;
@@ -111,9 +116,9 @@ header .container {
 }
 
 .slogan {
-    width: 70%;
+    width: 52%;
     margin: auto;
-    font-size: 49px;
+    font-size: 33px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -130,29 +135,29 @@ header .container {
 }
 
 .passion {
-    width: 50%;
+    width: 45%;
     margin: auto;
     text-align: center;
-    font-size: 28px;
+    font-size: 22px;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 4px;
     margin-top: 24px;
     line-height: 41px;
 }
 .services-bg{
-  background: url('../img/servicesBG.png')
+  background: url('../img/services-bg.png')
 }
 .more {
-    margin-top: 79px;
+    margin-top: 43px;
     text-align: center;
-    font-size: 25px;
+    font-size: 21px;
     letter-spacing: 3px;
     font-family: 'Raleway', sans-serif;
 }
 
 .more .arrow {
-    font-size: 75px;
-    margin-top: -21px;
+    font-size: 63px;
+    margin-top: -17px;
 }
 
 .more .arrow a {
@@ -192,6 +197,10 @@ header .container {
 
 .service .desc {
     font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    width: 73%;
+    margin: auto;
+    margin-bottom: 60px;
 }
 
 .ben-items .desc {
@@ -213,11 +222,11 @@ header .container {
 }
 
 .ben-cont-bg {
-    background-image: url(../img/mainBG.png);
+    background-image: url(../img/ben-bg.png);
 }
 .benefits {
-    background: rgba(0,0,0,0.8);
-    box-shadow: 0 31px 9px 0 rgba(0, 0, 0, 0.6);
+    background: rgba(0,0,0,0.9);
+    box-shadow: 0 33px 26px 0 rgba(0, 0, 0, 0.85);
     margin-bottom: 30px;
 }
 .service .icon img {
@@ -227,27 +236,48 @@ header .container {
 }
 
 .service .icon {
-    width: 110px;
+    width: 114px;
     margin: auto;
 }
-
+.service .title {text-transform: uppercase;font-size: 20px;margin-top: 15px;}
 .service .icon img:hover {
     -webkit-transform: rotate(360deg) scale(1.2);
     transform: rotate(360deg) scale(1.2);
+}
+.navbar-default .navbar-nav>li>a:focus {
+    color: #ffffff;
 }
 .about {
     color: #000;
     text-transform: uppercase;
 }
 .download-item {
-    width: 50%;
+    width: 249px;
     float: left;
+    height: 80px;
+    margin-left: 20px;
+    margin-bottom: 56px;
+}
+.download-item img{
+  width:100%
 }
 
 .download-cont {
-    width: 500px;
+    width: 540px;
     margin: auto;
-    max-width:100%
+    max-width:100%;
+}
+.bg{
+  background-size: cover;
+  padding: 0;
+}
+.about .desc{
+  font-size: 21px;
+  letter-spacing: 2px;
+  width: 88%;
+  margin: auto;
+  margin-bottom: 73px;
+  margin-top: 14px;
 }
 @media only screen and (max-width: 1023px) {
 
