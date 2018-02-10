@@ -17,8 +17,14 @@ img {
     letter-spacing: 3px;
     margin-top: 100px;
 }
+.contact .section-title {
+  margin-bottom: 17px;
+}
+.benefits .section-title{
+  margin-bottom: 45px;
+}
 .services .section-title{
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 .soon .section-title{margin-bottom: 40px;}
 .second-bc{
@@ -29,7 +35,17 @@ img {
     transition: all .5s ease;
     font-family: 'Oswald', sans-serif;
 }
-
+.benefits .btn{
+  width: 299px;
+  margin-top: 23px;
+  height: 68px;
+  border-radius: 14px;
+  font-size: 38px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 60px;
+  max-width: 100%;
+}
 .btn:hover {
     background: #078ada;
     color: #fff;
@@ -57,7 +73,7 @@ header .container {
 }
 
 .navbar-default {
-    background: rgba(0,0,0,0.8);
+    background: #000;
     height: 93px;
     border: 0;
     border-radius: 0;
@@ -85,7 +101,7 @@ header .container {
     margin-top: 26px;
     text-transform: uppercase;
     text-align: center;
-    padding: 0 34px;
+    width: calc(100% / 5);
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -116,7 +132,7 @@ header .container {
 }
 
 .slogan {
-    width: 52%;
+    width: 700px;
     margin: auto;
     font-size: 33px;
     text-align: center;
@@ -135,7 +151,7 @@ header .container {
 }
 
 .passion {
-    width: 45%;
+    width: 635;
     margin: auto;
     text-align: center;
     font-size: 22px;
@@ -175,13 +191,26 @@ header .container {
 .phone{
   background: url('../img/phone-app.png');
   background-size: 100%;
-  min-height: 700px;
+  min-height: 800px;
   background-repeat: no-repeat;
 }
 .for-clients.ben-items {
     text-align: right;
+    padding-right: 30px;
 }
-
+.ben-items .title{
+    font-size: 28px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+.for-rest>div{max-width: 88%;min-height: 125px;margin-bottom: 31px;}
+.ben-items .desc{}
+.for-clients>div{
+  float:right;
+  max-width: 88%;
+  min-height: 125px;
+  margin-bottom: 31px;
+}
 .for-rest.ben-items {
     text-align: left;
 }
@@ -197,14 +226,17 @@ header .container {
 
 .service .desc {
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    width: 73%;
+    font-size: 17px;
+    width: 250px;
     margin: auto;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
+    max-width: 100%;
 }
 
 .ben-items .desc {
     font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 .services {
@@ -213,21 +245,58 @@ header .container {
 }
 .contact-details {
     font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    letter-spacing: 2px;
 }
-
+.contact-details p{
+  margin: 0;
+}
 .form {
     font-family: 'Raleway', sans-serif;
-    width: 50%;
+    width: 550px;
     margin: auto;
+    max-width: 100%;
 }
-
+.aim{
+    font-size: 42px;
+    margin-top: 38px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+.form .btn{
+  margin-top: 53px;
+  height: 62px;
+  width: 289px;
+  max-width: 90%;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.form input{
+  height: 89px;
+  font-size: 26px;
+  padding: 0 24px;
+}
+.form textarea{
+  height: 195px;
+  font-size: 26px;
+  padding: 21px;
+}
+.form .title{
+  margin-top: 40px;
+  font-size: 26px;
+}
 .ben-cont-bg {
     background-image: url(../img/ben-bg.png);
 }
 .benefits {
     background: rgba(0,0,0,0.9);
     box-shadow: 0 33px 26px 0 rgba(0, 0, 0, 0.85);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    width: 90%;
+    max-width: 1300px;
+    margin-top: 50px;
 }
 .service .icon img {
     -webkit-transition: .5s ease;
@@ -239,7 +308,7 @@ header .container {
     width: 114px;
     margin: auto;
 }
-.service .title {text-transform: uppercase;font-size: 20px;margin-top: 15px;}
+.service .title {text-transform: uppercase;font-size: 28px;margin-top: 15px;margin-bottom: 15px;}
 .service .icon img:hover {
     -webkit-transform: rotate(360deg) scale(1.2);
     transform: rotate(360deg) scale(1.2);
@@ -256,10 +325,11 @@ header .container {
     float: left;
     height: 80px;
     margin-left: 20px;
-    margin-bottom: 56px;
+    margin-bottom: 100px;
 }
 .download-item img{
-  width:100%
+  width:100%;
+  /* height: 100%; */
 }
 
 .download-cont {
@@ -276,11 +346,53 @@ header .container {
   letter-spacing: 2px;
   width: 88%;
   margin: auto;
-  margin-bottom: 73px;
+  margin-bottom: 100px;
   margin-top: 14px;
 }
+.ben-title{
+  font-size: 35px;
+  letter-spacing: 2px;
+  width: 150px;
+  text-transform: uppercase;
+}
 @media only screen and (max-width: 1023px) {
-
+  .phone{min-height: 580px;}
+  .benefits {width:95%}
+  .benefits .row>div{
+    padding:0 5px;
+  }
+  .ben-items .title{
+    font-size: 15px;
+  }
+    .ben-items .desc{
+    font-size: 9px;
+    padding: 0 5px;
+  }
+  .ben-title{
+    text-align: center;
+    width: 100%;
+    min-height: 20px!important;
+    font-size: 27px;
+    max-width: 100%!important;
+}
+  .aim{
+    font-size: 20px;
+    line-height: 39px;
+}
+  .download-item{
+    margin-bottom:20px;
+  }
+  .service .desc{
+    margin-bottom: 40px;
+}
+  .section-title{margin-top:50px}
+  .soon .section-title{
+    letter-spacing: 0;
+}
+.about .desc{
+  width:100%;
+  margin-bottom: 50px;
+}
 .navbar-default .navbar-brand {
     width: 200px;
     padding-top: 7px;
@@ -293,13 +405,17 @@ header .container {
 
 .ben-items .item{
   width:50%;
-  float:left;
+  float: left;
   text-align: center;
+  min-height: 82px;
 }
 .ben-items {
   height: 180px;
 }
-.ben-items {}
+.ben-items {
+    height: 260px;
+    padding: 0px!important;
+}
 
 .container-fluid>.navbar-collapse {
     height: 208px;
@@ -349,9 +465,10 @@ header .container {
 .passion {
     width: 100%;
     font-size: 15px;
+    line-height: 25px;
 }
 
 .container-fluid.banner-bg.bg {
-    height: 760px;
+    height: 680px;
 }
 }
