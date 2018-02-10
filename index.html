@@ -26,11 +26,11 @@
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                      <ul class="nav navbar-nav">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Download</a></li>
-                        <li><a href="#">Benefits</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="#benefits">Benefits</a></li>
+                        <li><a href="#contacts">Contact</a></li>
                      </ul>
                   </div>
                   <!-- /.navbar-collapse -->
@@ -63,14 +63,14 @@
               <div class="more">
                 <div class="text">Know More</div>
                 <div class="arrow">
-                  <i class="fa fa-angle-down"></i>
+                  <a href="#about"><i class="fa fa-angle-down"></i></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
         </div>
-        <div class="container about">
+        <div id="about" class="container about">
           <div class="row">
             <div class="col-md-12">
               <h2 class="section-title second-color">About</h2>
@@ -80,8 +80,8 @@
             </div>
           </div>
         </div>
-
-        <div class="container services bg">
+        <div id="services" class="container-fluid services-bg bg">
+          <div class="container services">
           <div class="row">
             <div class="col-md-12">
               <h2 class="section-title">Services</h2>
@@ -116,23 +116,26 @@
             </div>
           </div>
         </div>
-        <div class="container soon">
+        </div>
+        <div id="download" class="container soon">
           <div class="row">
             <div class="col-md-12">
               <h2 class="section-title second-color">COMING SOON ON</h2>
             </div>
             <div class="col-md-12">
-              <div class="download-item">
-                <img src="assets/img/apple.png"/>
-              </div>
-              <div class="download-item">
-                <img src="assets/img/google.png"/>
+              <div class="download-cont">
+                <div class="download-item">
+                  <img src="assets/img/apple.png"/>
+                </div>
+                <div class="download-item">
+                  <img src="assets/img/google.png"/>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="container-fluid ben-cont-bg bg">
-          <div class="container benefits">
+          <div id="benefits" class="container benefits">
             <div class="row">
               <div class="col-md-12">
                 <h2 class="section-title">benefits</h2>
@@ -191,7 +194,7 @@
           </div>
 
         </div>
-        <div class="container contact">
+        <div id="contacts" class="container contact">
           <div class="row">
             <div class="col-md-12">
               <h2 class="section-title">Contact us</h2>
@@ -228,6 +231,6 @@
       </div>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-      <!--<script src="assets/js/scripts.js"></script>-->
+      <script src="assets/js/scripts.js"></script>
    </body>
 </html>

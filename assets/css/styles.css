@@ -1,7 +1,6 @@
 body{
   color:#fff;
   font-family: 'Oswald', sans-serif;
-  background: #000;
   text-align: center;
 }
 img {
@@ -21,6 +20,7 @@ img {
 
 .btn {
     transition: all .5s ease;
+    font-family: 'Oswald', sans-serif;
 }
 
 .btn:hover {
@@ -54,7 +54,7 @@ header .container {
 
 .navbar-default {
     background: rgba(0,0,0,0.8);
-    height: 156px;
+    height: 56px;
     border: 0;
     border-radius: 0;
     padding: 0 35px;
@@ -78,7 +78,7 @@ header .container {
 }
 .navbar-nav>li {
     font-size: 30px;
-    margin-top: 61px;
+    /* margin-top: 61px; */
     text-transform: uppercase;
     text-align: center;
     padding: 0 32px;
@@ -139,7 +139,9 @@ header .container {
     margin-top: 24px;
     line-height: 41px;
 }
-
+.services-bg{
+  background: url('../img/servicesBG.png')
+}
 .more {
     margin-top: 79px;
     text-align: center;
@@ -152,10 +154,24 @@ header .container {
     font-size: 75px;
     margin-top: -21px;
 }
+
+.more .arrow a {
+    color: #fff;
+    transition: all .5s ease;
+}
+
+.more .arrow a:hover {
+    color: #047cc5;
+    font-size: 70px;
+}.contact {
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+}
 .phone{
   background: url('../img/phone-app.png');
   background-size: 100%;
-  min-height: 700px
+  min-height: 700px;
+  background-repeat: no-repeat;
 }
 .for-clients.ben-items {
     text-align: right;
@@ -182,8 +198,10 @@ header .container {
     font-family: 'Raleway', sans-serif;
 }
 
-.contact {}
-
+.services {
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+}
 .contact-details {
     font-family: 'Raleway', sans-serif;
 }
@@ -199,6 +217,8 @@ header .container {
 }
 .benefits {
     background: rgba(0,0,0,0.8);
+    box-shadow: 0 31px 9px 0 rgba(0, 0, 0, 0.6);
+    margin-bottom: 30px;
 }
 .service .icon img {
     -webkit-transition: .5s ease;
@@ -214,6 +234,20 @@ header .container {
 .service .icon img:hover {
     -webkit-transform: rotate(360deg) scale(1.2);
     transform: rotate(360deg) scale(1.2);
+}
+.about {
+    color: #000;
+    text-transform: uppercase;
+}
+.download-item {
+    width: 50%;
+    float: left;
+}
+
+.download-cont {
+    width: 500px;
+    margin: auto;
+    max-width:100%
 }
 @media only screen and (max-width: 1023px) {
 
@@ -238,8 +272,8 @@ header .container {
 .ben-items {}
 
 .container-fluid>.navbar-collapse {
-    height: 224px;
-    background: #000000d1;
+    height: 208px;
+    background: rgba(0,0,0,0.9);
     padding: 0;
 }
 
@@ -259,6 +293,7 @@ header .container {
 .navbar-nav {
     width: 100%;
     margin: 0;
+    padding: 0;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle {
