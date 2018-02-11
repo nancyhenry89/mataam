@@ -26,7 +26,7 @@ header .container{padding:0;width:100%}
 .logo img{width:100%}
 .slogan{width: 860px;margin:auto;font-size: 31px;text-align:center;text-transform:uppercase;letter-spacing:2px;margin-top:23px;line-height:59px;max-width: 90%;}
 .sep{width:28%;margin:auto;height:9px;background:#fff;margin-top:31px}
-.passion{width:635px;margin:auto;text-align:center;font-size:22px;font-family:'Raleway',sans-serif;letter-spacing:4px;margin-top:24px;line-height:41px}
+.passion{width: 716px;margin:auto;text-align:center;font-size:22px;font-family:'Raleway',sans-serif;letter-spacing:4px;margin-top:24px;line-height:41px;}
 .services-bg{background:url(../img/services-bg.png)}
 .more{margin-top:43px;text-align:center;font-size:21px;letter-spacing:3px;font-family:'Raleway',sans-serif}
 .more .arrow{font-size:63px;margin-top:-17px}
