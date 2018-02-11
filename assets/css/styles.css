@@ -46,11 +46,16 @@ header .container{padding:0;width:100%}
 .services{width:100%;background:rgba(0,0,0,0.8)}
 .contact-details{font-family:'Raleway',sans-serif;font-size:23px;letter-spacing:2px}
 .contact-details p{margin:0}
-.form{font-family:'Raleway',sans-serif;width:550px;margin:auto;max-width:100%}
+.contact-details p i{margin-top: 10px;width: 50px;color: #fff;transition: all .5s ease;}
+.contact-details p a{color:#fff;transition: all .5s ease;}
+.contact-details p a:hover{text-decoration: none;color: #047cc5;}
+.contact-details p a:hover i{color: #047cc5}
+.form{font-family:'Raleway',sans-serif;width: 385px;margin:auto;max-width:100%;}
 .aim{font-size:42px;margin-top:38px;letter-spacing:3px;line-height:50px;text-transform:uppercase;margin-bottom:100px}
+.copy-rights{text-align:right;margin-bottom: 30px;}
 .form .btn{margin-top:53px;height:62px;width:289px;max-width:90%;font-size:35px;letter-spacing:2px}
-.form input{height:89px;font-size:26px;padding:0 24px}
-.form textarea{height:195px;font-size:26px;padding:21px}
+.form input{height: 62px;font-size: 20px;padding:0 24px;}
+.form textarea{height: 145px;font-size: 20px;padding:21px;}
 .form .title{margin-top:40px;font-size:26px}
 .ben-cont-bg{background-image:url(../img/ben-bg.png)}
 .benefits{background:rgba(0,0,0,0.9);box-shadow:0 33px 26px 0 rgba(0,0,0,0.85);margin-bottom:50px;width:90%;max-width:1300px;margin-top:50px}
