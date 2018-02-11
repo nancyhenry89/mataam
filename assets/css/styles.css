@@ -24,7 +24,7 @@ header .container{padding:0;width:100%}
 .navbar-nav{height:100%;width:77%;padding-left:20px;float:right}
 .logo{width:325px;margin:auto;margin-top:150px;max-width:100%}
 .logo img{width:100%}
-.slogan{width:700px;margin:auto;font-size:33px;text-align:center;text-transform:uppercase;letter-spacing:2px;margin-top:23px;line-height:59px}
+.slogan{width: 860px;margin:auto;font-size: 31px;text-align:center;text-transform:uppercase;letter-spacing:2px;margin-top:23px;line-height:59px;max-width: 90%;}
 .sep{width:28%;margin:auto;height:9px;background:#fff;margin-top:31px}
 .passion{width:635px;margin:auto;text-align:center;font-size:22px;font-family:'Raleway',sans-serif;letter-spacing:4px;margin-top:24px;line-height:41px}
 .services-bg{background:url(../img/services-bg.png)}
@@ -97,7 +97,7 @@ header .container{padding:0;width:100%}
 .navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle{background:#050608;border:0}
 .navbar-default .navbar-toggle .icon-bar{background:#fff;margin-top:5px}
 .logo{width:180px;margin-top:110px}
-.slogan{font-size:20px;line-height:28px;width:100%}
+.slogan{font-size: 20px;line-height: 28px;width:100%;max-width: 100%;}
 .passion{width:100%;font-size:15px;line-height:25px}
 .container-fluid.banner-bg.bg{height:680px}
 }
