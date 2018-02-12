@@ -34,7 +34,8 @@ header .container{padding:0;width:100%}
 .more .arrow a:hover{color:#047cc5;font-size:70px}
 .contact{background:rgba(0,0,0,0.8);width:100%}
 .phone{background:url(../img/phone-app.png);background-size:contain;min-height: 640px;background-repeat:no-repeat;background-position:center 0;}
-.for-clients.ben-items{text-align:right;padding-right:30px}
+.for-clients.ben-items{text-align:right;padding-right:30px;}
+.for-clients .ben-title{float:right}
 .ben-items .title{font-size:28px;margin-top:0;text-transform:uppercase}
 .for-rest>div{max-width:88%;min-height:125px;margin-bottom:31px}
 .for-clients>div{float:right;max-width:88%;min-height:125px;margin-bottom:31px}
